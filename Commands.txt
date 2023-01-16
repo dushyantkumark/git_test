@@ -1,0 +1,13 @@
+git commands for beginner
+OS : amazon linux machie (ec2)
+	sudo su
+	yum update -y
+	yum install git -y
+	git config --global user.name "user_name"
+	git config --global user.email "emailid"
+	git config -l
+	git add .
+	git commit -m "message"
+	git remote add origin <URL of your github repository>
+	git push -u origin master
+	 
